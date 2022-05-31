@@ -986,8 +986,8 @@ background: url('../img/ow/image\ 10.png');
 
 background-repeat: no-repeat;
 /*background-attachment: fixed;*/
-background-size: auto;
-height: 100vh;
+background-size: cover;
+height: 120vh!important;
 }
 .team h2{
   font-weight: bold;
@@ -1439,7 +1439,8 @@ box-shadow: 1px 1px 2px 0.5px black;
 @media only screen and (width> 1500px){
 
   #hero{
-
+    height: 100vh!important;
+  
   }
 
   #hero .coframe{
@@ -1469,6 +1470,9 @@ box-shadow: 1px 1px 2px 0.5px black;
 
   #hero .secframe{
    /*height: 30vh!important;*/
+  }
+  .seper{
+    display: none;
   }
 
   .about .image {
