@@ -1458,10 +1458,40 @@ line-height: 1em!important;
 }
 
 }
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  #about h3{
+    font-size: 40px!important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+  .hrc1{
+    margin: 0 auto!important;
+  }
+  #hero h1{
+    font-size: 45px!important;
+  }
+ 
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media ((min-width: 992px) and (max-width: 1400px)) { 
+
+.hrc1{
+  margin: 0 auto!important;
+}
+#hero h1{
+  font-size: 45px!important;
+}
+
+ }
 
 
 /*XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { 
+@media (min-width: 1401px) { 
 
   #hero{
     height: 89vh!important;
