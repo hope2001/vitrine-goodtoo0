@@ -252,6 +252,12 @@ h1, h2, h3, h4, h5, h6 {
   .navbar ul {
     display: none;
   }
+  .on{
+    display: none;
+  }
+  .off{
+    display: block!important;
+  }
 } 
 .navbar-mobile {
   position: fixed;
@@ -1461,12 +1467,14 @@ line-height: 1em!important;
 }
 
 }
-/* X-Small devices (portrait phones, less than 576px)*/
+
+/* X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
   #hero{
     height: 100vh!important;
   
   }
+
 
   #hero .coframe{
     height: 50vh!important;
@@ -1475,7 +1483,7 @@ line-height: 1em!important;
   #about h3{
     font-size: 45px!important;
   }
-}
+}*/
 
 
 
