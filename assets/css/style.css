@@ -1436,14 +1436,17 @@ box-shadow: 1px 1px 2px 0.5px black;
   }
 }
 
-@media only screen and (width> 2500px){
-
-  
-   
-}
-
 
 @media only screen and (max-device-width: 667px), screen and (max-width: 450px){
+
+  #hero{
+    height: 100vh!important;
+  
+  }
+
+  #hero .coframe{
+    height: 50vh!important;
+  }
 
 .ii{
   font-size: 30px!important;
@@ -1460,13 +1463,47 @@ line-height: 1em!important;
 }
 /* X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
+  #hero{
+    height: 100vh!important;
+  
+  }
+
+  #hero .coframe{
+    height: 50vh!important;
+  }
+
   #about h3{
-    font-size: 40px!important;
+    font-size: 45px!important;
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) { 
+
+
+  #hero{
+    height: 100vh!important;
+  
+  }
+
+  #hero .coframe{
+    height: 50vh!important;
+  }
+
 
   .hrc1{
     margin: 0 auto!important;
@@ -1477,24 +1514,23 @@ line-height: 1em!important;
  
  }
 
-/* Large devices (desktops, 992px and up)*/
-@media ((min-width: 992px) and (max-width: 1400px)) { 
 
-.hrc1{
-  margin: 0 auto!important;
-}
-#hero h1{
-  font-size: 45px!important;
-}
 
+ /* Large devices (desktops, 992px and up)*/
+ @media ((min-width: 992px) and (max-width: 1400px)) { 
+  #hero{
+    height: 100vh!important;
+  
+  }
+
+  
  }
-
 
 /*XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1401px) { 
 
   #hero{
-    height: 89vh!important;
+    height: vh!important;
   
   }
 
@@ -1502,15 +1538,21 @@ line-height: 1em!important;
     height: 50vh!important;
   }
   #hero h1 {
-    margin: 5px 0 15px 0;
-    font-size: 80px;
+    margin: 5px 0 10px 0;
+    font-size: 60px;
     font-weight: 700;
     line-height: 1em;
-    color: #d2e0ed;
+   color: #d2e0ed;
+   /* color: #550000;*/
     font-family: "Poppins", sans-serif;
+    text-shadow: 1px 1px 1px  #000000;
   }
   #hero .h1{
     margin: 20px 0 20px 0;
+  }
+  
+  .lll1{
+    display: flex!important;
   }
 
   #hero .imbn{
@@ -1545,3 +1587,9 @@ line-height: 1em!important;
    }
 
  }
+
+
+
+ 
+
+
