@@ -59,12 +59,58 @@
       <li><a href="" class="btn scrollto" ata-aos="fade-bottom"><img src="assets/img/ow/App-Store-Button-transparent.png" style="width: 150px ;" class="img-fluid" data-aos="fade-bottom"
             alt="">
         </a></li>
-          <li><a class="getstarted scrollto btn btn-success1 " style="font-size: 25px;" href="" data-aos="fade-left">Rejoindre</a></li>
+          <li><a class="getstarted scrollto btn btn-success1 " style="font-size: 25px;" href="" data-aos="fade-left" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Rejoindre</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
+   
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content ">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Rejoignez nous</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Prénoms</label>
+            <input type="text" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputAddress" placeholder="johndoe@hotmail.com">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Entreprise</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Axa-Zara">
+          </div>
+          <div class=" col-12">
+            <label for="inputCity" class="form-label">logo</label>
+            <input type="file" class="form-control" id="inputCity">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Message</label>
+            <textarea name="" class="form-control" iid="inputAddress2" cols="20" rows="10"></textarea>
+          </div>
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success1" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn " style="background-color: #FD5612;">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
