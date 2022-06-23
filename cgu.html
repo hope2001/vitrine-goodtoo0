@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>GOODTOO Template - Index</title>
+  <title>EasyFood  Template - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -29,7 +29,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <style>
-    p{
+    p {
       color: black;
     }
   </style>
@@ -44,27 +44,79 @@
       <span>test</span>
 
     </div>-->
-  <header id="header p-0  ">
+    <header id="header p-0  ">
 
-    <div class="container-fluid d-flex align-items-center justify-content-between p-2 "
-      style="background-color: #FD5612;">
-
-      <div class="logo">
-        <!--  <h1><a href="index.html">Bocor<span>.</span></a></h1>
-        Uncomment below if you prefer to use an image logo -->
-        <a href="index.html" data-aos="fade-top"><img src="assets/img/ow/logo blanc 1.png" alt="" class="img-fluid"></a>
+      <div class="container-fluid d-flex align-items-center justify-content-between p-2 "
+        style="background-color: #FD5612;">
+  
+        <div class="logo">
+          <!--  <h1><a href="index.html">Bocor<span>.</span></a></h1>
+          Uncomment below if you prefer to use an image logo -->
+          <a href="index.html" data-aos="fade-top"><img src="assets/img/ow/Groupe 2-2.png" alt="" class="img-fluid w-100 ml-2"></a>
+        </div>
+  
+        <nav id="navbar" class="navbar  mr-4 d-flex justify-content-end">
+          <ul class="">
+            <li class=""><a href="" class="btn scrollto" ata-aos="fade-bottom"><img src="assets/img/ow/Google-Play-Store-Button.png" style="width: 150px ;" class="img-fluid" data-aos="fade-bottom"
+              alt="">
+          </a></li>
+        <li><a href="" class="btn scrollto" ata-aos="fade-bottom"><img src="assets/img/ow/App-Store-Button-transparent.png" style="width: 150px ;" class="img-fluid" data-aos="fade-bottom"
+              alt="">
+          </a></li>
+            <li><a class="getstarted scrollto btn btn-success1 " style="font-size: 25px;" href="" data-aos="fade-left" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Rejoindre</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+  
       </div>
-
-      <nav id="navbar" class="navbar mr-4">
-        <ul>
-
-          <li><a class="getstarted scrollto btn btn-success1 " style="font-size: 25px;" href="#about">Rejoindre</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+     
+  
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content ">
+      <div class="modal-header">
+        <h5 class="modal-title d-flex w-100" id="staticBackdropLabel">
+          <img src="assets/img/ow/Groupe 2-3.png" alt="" class="img-fluid mx-auto w-50"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Nom</label>
+            <input type="text" class="form-control alert-success" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Prénoms</label>
+            <input type="text" class="form-control alert-success" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Email</label>
+            <input type="email" class="form-control alert-success" id="inputAddress" placeholder="johndoe@hotmail.com">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Entreprise</label>
+            <input type="text" class="form-control alert-success" id="inputAddress2" placeholder="Nom de l'entreprise">
+          </div>
+          <div class=" col-12">
+            <label for="inputCity" class="form-label">logo</label>
+            <input type="file" class="form-control alert-success" id="inputCity" placeholder="logo">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Message</label>
+            <textarea name="" class="form-control alert-success" iid="inputAddress2" ></textarea>
+          </div>
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success1" data-bs-dismiss="modal">Fermer</button>
+        <button type="button" class="btn text-light " style="background-color: #FD5612;">Rejoindre</button>
+      </div>
     </div>
-  </header><!-- End Header -->
+  </div>
+</div>
+    </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero1" style="background-color: #FD5612;">
@@ -77,7 +129,7 @@
               générales d’utilisation
             </h1>
             <div class="d-flex mx-auto">
-              <img data-aos="fade-down" src="assets/img/ow/Frame(2).png" class="img-fluid mx-auto" alt="">
+              <img data-aos="fade-down" src="assets/img/ow/Frame(2).png" class="animate img-fluid mx-auto" alt="">
             </div>
             <!-- <h2>We are team of talented designers making websites with Bootstrap</h2>
             <a href="#about" class="btn-get-started scrollto">Get Started</a>-->
@@ -140,10 +192,17 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="abou section-bg ">
+     
       <div class="container">
-        <h2 style="color: #FD5612;">1- Objet </h2>
+        <nav class="nav my-4">
+          <a class="active btn-sm m-2 btn btn-outline-warning "  aria-current="page" href="cgu.html"> Conditions générales </a>
+          <a class="btn-sm m-2 btn btn-outline-dark " href="confidential.html">Politique de confidentialité </a>
+          <a class="btn-sm m-2 btn btn-outline-dark" href="cooquies.html">Utilisations des cookies </a>
+         </nav>
+        <h2 style="color: #FD5612;">1- Préambule </h2>
         <p class="p-2">
-          DigIT ( <a href="https://digitconsults.com/" class="">https://digitconsults.com/</a> ) est une start-up
+          DIGIT CONSULTS( <a href="https://digitconsults.com/" class="">https://digitconsults.com/</a> ) est une
+          start-up
           spécialisée dans la conception d'applications web et mobile
           professionnelles et en intégration de données.
         </p>
@@ -157,30 +216,426 @@
           la décision.
         </p>
         <p class="p-2">
-          Les présentes conditions générales d'utilisation de l'application mobile (ci-après dénommées « CGU de l'Applic
-          ation ») ont pour objet de déterminer les règles d'utilisation de l'application mobile « A la découverte du
-          Bénin » (ci-après dénommée l'« Application ») éditée par la société DIGIT.
+          Les présentes conditions générales d’utilisation de l’application mobile (ci-après dénommées « CGU de
+          l’Application ») ont pour objet de déterminer les règles d’utilisation de l’application mobile « EASYFOOD
+          GETHER » (ci-après dénommée l’« Application ») éditée par la société DIGIT CONSULTS.
 
 
         </p>
         <p class="p-2">
-          A la découverte du Bénin est une application disponible sur App store et Play store qui permet à toute
-          personne vivant ou désireuse de se rendre au Bénin de pouvoir géolocaliser toutes institutions du Bénin
-          (Pharmacie, Pharmacie de garde, Musée, Police, Hôtel, Restaurant, Lieux publics ..) en un clic. L’utilisateur
-          peut ainsi filtrer par catégorie ou rechercher une institution particulière afin de s’y rendre grâce à
-          l’itinéraire fourni directement dans l’application. L’utilisateur peut aussi décider de rendre publique dans
-          la communauté la visite d’un lieu à une date donnée afin de partager ce moment ensemble avec d’autres membres
-          de la communauté. Plus besoin de faire mille recherches sur google avant de dénicher la prochaine sortie ou
-          évènement qui aura lieu au Bénin. Un filtre “évènement” et un agenda des évènements permettent de ne plus
-          rater aucun évènement. L’application permet de visiter et découvrir le Bénin sans rien rater et sans perte de
-          temps. Les informations pour réussir sa visite sont disponibles en un clic et mises à jour régulièrement.
+          En installant l’Application sur votre terminal et/ou en accédant à l’Application, en tant que visiteur et/ou
+          utilisateur, vous acceptez sans condition ni réserve l’intégralité des CGU de l’Application définies ci-après.
+          Si vous ne souhaitez pas accepter les présentes CGU de l’Application, nous vous demandons de ne pas accéder à
+          l’Application.
         </p>
         <p class="p-2">
-          Les présentes conditions générales d'utilisation ont pour objet d'encadrer l'accès et les modalités
-          d'utilisation de la Plateforme. Nous vous invitons à en prendre attentivement connaissance. Vous comprenez et
-          reconnaissez que DIGIT n'est partie à aucun accord, contrat ou relation contractuelle, de quelque nature que
-          ce soit, conclu entre les Membres de sa Plateforme.
+          Toute visite et/ou utilisation de l’Application doit se faire dans le respect des présentes CGU de
+          l’Application. </p>
+        <p class="p-2">
+          DIGIT Consults se réserve la faculté de modifier les présentes CGU de l’Application à tout moment, tout ou
+          partie des dispositions des CGU de l’Application mobile, afin de les adapter aux évolutions des Services, aux
+          évolutions techniques, légales ou jurisprudentielles ou lors de la mise en place de nouvelles prestations. Les
+          CGU applicables sont celles en vigueur à la date de la connexion et de l’utilisation de l’Application par
+          l’Utilisateur.
         </p>
+        <p class="p-2">
+          DIGIT CONSULTS invite donc l’Utilisateur à se référer, régulièrement, à la dernière version des CGU de
+          l’Application disponible dans l’Application et sur le Site de l’application.
+        </p>
+        <h3 style="color: #FD5612;" class="mt-3">Article 1 : DÉFINITION</h3>
+        <p class="p-2">
+          Les termes débutant par une majuscule au sein des présentes CGU de l’Application, qu’ils soient utilisés
+          indifféremment au singulier ou au pluriel, auront la signification qui leur est donnée ci-après :
+        </p>
+        <p class="p-1">
+          « <strong>Application et/ou Application Mobile</strong> » désigne l’application logicielle « EasyFood Gether »
+          éditée et
+          fournie par DIGIT Consults, donnant accès aux Services, et qui est disponible gratuitement dans l’ « App Store
+          » d’Apple et le « Google Play Store » de Google pour être téléchargée par l’Utilisateur sur son terminal Apple
+          iOS et Android. L’Application comprend également les Contenus, les logiciels, les programmes, les outils (de
+          programmation, de navigation, …), les bases de données, les systèmes d’exploitation, la documentation et tous
+          autres éléments et services qui la composent, les mises à jour et les nouvelles versions qui peuvent être
+          apportées à l’Application par DIGIT Consults.
+        </p>
+        <p class="p-1">
+          « <strong>Contenu</strong> » désigne sans que cette liste soit limitative, la structure de l’Application, le
+          contenu éditorial,
+          les dessins, les illustrations, les images, les photographies, les chartes graphiques, les marques, les logos,
+          les sigles, les dénominations sociales, les œuvres audiovisuelles, les œuvres multimédia, les contenus
+          visuels, les contenus audio et sonores, ainsi que tout autre contenu présent au sein de l’Application et/ou
+          tout autre élément composant l’Application.
+        </p>
+        <p class="p-1">
+          « <strong>CGV</strong> » désigne les conditions générales de vente de Easyfood Gether applicables depuis le
+          Site internet <a class="text-success1" href="www.easyfoodgether.com">www.easyfoodgether.com</a>.
+        </p>
+        <p class="p-1">
+          « <strong>Services</strong> » désigne les différentes fonctionnalités et services proposés par l’Application.
+        </p>
+        <p class="p-1">
+          « <strong>Site</strong> » désigne le site web officiel de Easyfood Gether dont l’adresse est la suivante : <a
+            class="text-success1" href="www.easyfoodgether.com">www.easyfoodgether.com</a>.
+        </p>
+        <p class="p-1">
+          « <strong>Utilisateur</strong> » ou « <strong>Vous</strong> » désigne une personne physique majeure ou mineure
+          ayant préalablement obtenu
+          l’autorisation de ses parents ou de la personne investie de l'autorité parentale, et ayant téléchargé
+          l’Application pour ses besoins propres, dans le cadre d’un usage strictement personnel et non commercial, sans
+          but lucratif direct ou indirect.
+        </p>
+        <p class="p-1">
+          « <strong>Utilisateur Pro</strong> » désigne les professionnels agricoles et de la restauration, les
+          Supermarchés alimentaires,
+          et les Associations humanitaires.
+        </p>
+        <p class="p-1">
+          Un « <strong>EasyFood </strong> » désigne tout produit proposé dans l’application entre deux utilisateurs.
+        </p>
+        <h3 style="color: #FD5612;" class="mt-3">Article 2 : OBJET DE L’APPLICATION</h3>
+        <p class="p-1">
+          L’Application a pour objet de vous permettre d’accéder à l’univers de EasyFood Gether soit directement via
+          l’Application soit par l’intermédiaire d’un lien hypertexte Vous redirigeant directement sur le site de
+          EasyFood Gether.
+        </p>
+        <p class="p-1">
+          Plusieurs Services peuvent être proposés à l’Utilisateur et notamment :
+        </p>
+        <ul class="p-2">
+          <li class="px-4 py-1">
+            Prendre un « <strong>EasyFood </strong> » : l’utilisateur réserve un produit. Après confirmation de la
+            réservation par
+            l’émetteur de « EasyFood  », les deux peuvent entrer en discussion directe pour éventuellement échanger sur les
+            détails de la récupération du « EasyFood  ». Une fois, récupéré, l’utilisateur peut marquer cet
+            « EasyFood  » comme récupéré. Un abonnement est nécessaire pour utiliser ce service. Un abonnement gratuit d’un
+            mois est offert à tout utilisateur souhaitant récupérer des « EasyFood  ».  Le paiement du « EasyFood  » se fait
+            exclusivement de main à main entre les deux utilisateurs au moment de la récupération du « EasyFood  ».
+          </li>
+          <li class="px-4 py-1">
+            Céder un « <strong>easyfood</strong> » :  l’utilisateur met à disposition d’autres utilisateurs des
+            « EasyFood  ». Ce service
+            est totalement gratuit et ne nécessite donc aucun abonnement.
+          </li>
+          <li class="px-4 py-1">
+            EasyFood  Bonheur : tout « EasyFood  » offert gratuitement. Seuls les « EasyFood  » non gratuits qui ont été proposés
+            par un <strong>utilisateur pro</strong> peut être payé directement dans l’application et transformé en
+            <strong>EasyFood  Bonheur. Les
+              frais de transactions sont ceux du fournisseur utilisé (Stripe, paypal, etc)</strong>.
+          </li>
+          <li class="px-4 py-1">
+            <strong>Portefeuille </strong>: ce service est proposé afin de disposer de montant utilisable directement
+            dans l’application
+            pour transformer <strong>exclusivement</strong> un « EasyFood  » en « EasyFood  Bonheur».
+          </li>
+        </ul>
+        <h3 style="color: #FD5612;" class="mt-3">Article 3 : DISPONIBILITÉ DE L’APPLICATION</h3>
+        <p class="p-1">
+          L’Application est accessible 24 heures sur 24, 7 jours sur 7 sauf en cas de force majeure ou de survenance
+          d’un évènement hors du contrôle de DIGIT Consults et sous réserve des éventuelles pannes et interventions de
+          maintenance nécessaires au bon fonctionnement de l’Application.
+        </p>
+        <p class="p-1">Les interventions de maintenance et/ou mises à jour pourront être effectuées sans que les
+          Utilisateurs aient été préalablement avertis.
+          La version du logiciel de l’Application peut être mise à jour de temps à autre pour ajouter de nouvelles
+          fonctions et de nouveaux services.
+        </p>
+        <p class="p-1">
+          Les interventions de maintenance et/ou mises à jour pourront être effectuées sans que les Utilisateurs aient
+          été préalablement avertis.
+        </p>
+        <h3 style="color: #FD5612;" class="mt-3">Article 4 : CONDITIONS D’ACCÈS ET CONDITIONS FINANCIÈRES</h3>
+        <h5 class="text-success1">4.1 : CONDITIONS D’ACCÈS</h5>
+        <h5 style="color: #FD5612;">4.1.1 : Téléchargement</h5>
+        <p class="p-1">
+          Les équipements et moyens matériels permettant l’accès à l’Application sont à la charge exclusive de
+          l’Utilisateur.
+        </p>
+        <p class="px-1">
+          Pour accéder et utiliser l’application, Vous devez posséder :
+        </p>
+        <ul class="p-3">
+          <li class="p-1">Un téléphone compatible ou un terminal mobile compatible ;</li>
+          <li class="p-1">Un accès au réseau internet ;</li>
+          <li class="p-1">Un compte client dans un store virtuel chez l’un des fournisseurs de l’Application mobile (App
+            store et/ou Google Play Store).</li>
+
+        </ul>
+        <p class="p-1">Les téléphones et terminaux mobiles compatibles sont les suivants :</p>
+
+        <ul class="p-3">
+          <li class="px-1">Téléphone mobile IPhone® d’Apple® disposant du système d’exploitation iOS sous iOS 10 ou
+            toute
+            autre version ultérieure qui viendrait à être développée ;</li>
+          <li class="px-1">Téléphone mobile disposant du système d’exploitation Android® OS 4.4 ou toute autre version
+            ultérieure qui viendrait à être développée.</li>
+        </ul>
+        <p class="p-1">Dès lors, l’Application Mobile EasyFood Gether est téléchargeable gratuitement depuis les
+          plateformes « Google Play Store » et « App Store ».</p>
+
+        <h5 style="color: #FD5612;"> Création ou enregistrement du compte</h5>
+        <p class="px-1">
+          Si l’Utilisateur ne dispose pas d’un compte EasyFood Gether, il sera requis qu’il en crée un afin de pouvoir
+          utiliser l’Application. Il devra fournir les informations suivantes :
+        </p>
+        <ul class="p-3">
+          <li class="px-1">Adresse e-mail</li>
+          <li class="px-1">Mot de passe</li>
+        </ul>
+        <p class="p-1">Une fois le compte créé, l’Utilisateur entre son adresse e-mail et un mot de passe confidentiel
+          permettant d’accéder aux Services.</p>
+        <p class="p-1">
+          L’Utilisateur garantit à EasyFood Gether que les informations fournies lors de son inscription sont exactes,
+          complètes et à jour.
+        </p>
+        <h5 class="text-success1">4.2 : CONDITIONS FINANCIÈRES</h5>
+        <p>L’Application est proposée gratuitement aux Utilisateurs hors :</p>
+        <ul class="p-3">
+          <li class="p-1">Coût d’abonnement auprès de l’opérateur de téléphonie mobile ;</li>
+          <li class="p-1">Coût de connexion et d’accès au réseau Internet ;</li>
+          <li class="p-1">Surcoût éventuel facturé pour le chargement des données.</li>
+        </ul>
+        <h3 style="color: #FD5612;" class="mt-3">Article 5 : CONTRAT DE LICENCE UTILISATEUR FINAL (CLUF)</h3>
+        <p>EasyFood Gether concède à l’Utilisateur un droit personnel d’utilisation de l’Application, du Contenu et des
+          Services, non exclusif, révocable, non cessible, non transférable, mondial et gratuit uniquement pour ses
+          besoins propres et dans le cadre de l’utilisation de l’Application et des Services, à l’exclusion de toute
+          autre finalité.</p>
+        <p>La présente licence ne confère aucun droit d’utilisation à l’Utilisateur sur le Contenu. Il est strictement
+          interdit à l’Utilisateur :</p>
+
+        <ul class="p-3">
+          <li class="p-1">De procéder à toute adaptation, modification, traduction, transcription, arrangement,
+            compilation, décompilation, assemblage, désassemblage, transcodage, ni d’appliquer la rétro ingénierie (ou «
+            Reverse Engineering ») de tout ou partie de l’Application, des Services et/ou du Contenu ;</li>
+          <li class="p-1">De créer des œuvres dérivées de l’Application sous licence ;</li>
+          <li class="p-1">D’utiliser des logiciels ou des procédés destinés à copier le Contenu sans l’autorisation
+            préalable de DIGIT Consults ;</li>
+          <li class="p-1">D’exporter l’Application, fusionner tout ou partie de l’Application avec d’autres programmes
+            informatiques ;</li>
+          <li class="p-1">
+            De reproduire de façon permanente ou provisoire l’Application, en tout ou partie, par tout moyen et sous
+            toute forme ;
+          </li>
+          <li class="p-1">D’extraire ou de réutiliser, y compris à des fins privées, sans autorisation préalable écrite
+            de DIGIT Consults, une partie substantielle ou non du contenu des bases de données et archives constituées
+            par l'Application ;</li>
+          <li class="p-1">De mettre en place des systèmes susceptibles de pirater l’Application et/ou le Contenu en tout
+            ou partie, ou de nature à violer les présentes CGU de l’Application mobile.</li>
+          <li class="p-1">
+            Si Vous contrevenez à ces interdictions, Vous êtes passible de poursuites et de dommages et intérêts. Les
+            conditions de la présente Licence régiront toutes mises à jour fournies par DIGIT Consults qui remplacent
+            et/ou complètent l’Application d’origine, sauf si cette mise à jour est accompagnée d’une licence distincte,
+            auquel cas les conditions de cette Licence prévaudront.
+          </li>
+        </ul>
+        <h3 style="color: #FD5612;" class="mt-3">Article 6 : DROITS, OBLIGATIONS ET RESPONSABILITÉ DE L’UTILISATEUR</h3>
+        <p>L’Utilisateur s’engage expressément :</p>
+        <ul class="p-3">
+          <li class="p-1">À télécharger l’Application sur son équipement exclusivement pour un usage personnel et non
+            Marchand ;</li>
+          <li class="p-1">À renoncer expressément à utiliser des logiciels ou dispositifs susceptibles de perturber le
+            bon fonctionnement de l’Application, ni à engager d'action de nature à imposer une charge disproportionnée
+            pour les infrastructures de DIGIT Consults ;</li>
+          <li class="p-1">À informer DIGIT Consults dès la connaissance d'un acte de piratage et en particulier de toute
+            utilisation illicite ou non contractuelle de l’Application et/ou du Contenu quel que soit le mode de
+            diffusion ;</li>
+          <li class="p-1">À ne pas vendre, louer, sous-licencier ou distribuer de quelque façon que ce soit
+            l’Application et/ou le Contenu à des tiers.</li>
+        </ul>
+        <h3 style="color: #FD5612;" class="mt-3">Article 7 : DROITS, OBLIGATIONS, RESPONSABILITÉ DE L’ÉDITEUR</h3>
+        <p>EasyFood Gether fera ses meilleurs efforts pour assurer le bon fonctionnement de l'Application, il s'engage à
+          sécuriser l'accès, la consultation et l'utilisation de l'Application et du Site.</p>
+        <p>DIGIT Consults s'engage à procéder ou faire procéder aux interventions de maintenance nécessaires pour
+          rétablir le bon fonctionnement de l'Application ou de son Site dans les plus brefs délais.</p>
+        <h3 style="color: #FD5612;" class="mt-3">Article 8 : LIMITATION ET EXCLUSION DE RESPONSABILITÉ</h3>
+        <p>La responsabilité de DIGIT Consults ne saurait être engagée pour les risques acceptés par l’Utilisateur.
+          DIGIT Consults ne peut être tenu pour responsable :</p>
+        <ul class="p-3">
+          <li class="p-2">En cas de défaut, de perte, de retard ou d’erreur de transmission de données qui sont
+            indépendants de sa volonté ;</li>
+          <li class="p-1">Des dommages de toute nature, directs ou indirects, résultant de l’utilisation ou de
+            l’incapacité à utiliser l’application et notamment toute perte financière ou commerciale, perte de données
+            en particulier dans le système d’information de l’Utilisateur de l’Application ;</li>
+          <li class="p-1">Des dommages de toute nature, directs ou indirects, résultant du contenu et/ou de
+            l’utilisation ou de l’incapacité à utiliser des sites Internet liés à l’Application ou auxquels les
+            Utilisateurs pourraient avoir accès via l’Application ;</li>
+          <li class="p-1">Des dommages de quelque nature que ce soit, causés aux Utilisateurs, à leurs terminaux, à
+            leurs équipements informatiques et téléphoniques et aux données qui y sont stockées ni des conséquences
+            pouvant en découler sur leur activités personnelles, professionnelle ou commerciale ;</li>
+          <li class="p-1">De l'envoi de messages et/ou de données et à une adresse fausse, erronée ou incomplète ;</li>
+          <li class="p-1">Si des données ne lui parvenaient pas, pour quelque raison que ce soit, ou si les données
+            qu’il reçoit étaient illisibles ou impossibles à traiter ;</li>
+          <li class="p-1">Au cas où l’Utilisateur ne parvenait pas à accéder ou à utiliser le Site, l’Application et/ou
+            les Services pour quelque raison que ce soit, notamment en cas d’opérations de maintenance, de mise à jour
+            ou d’améliorations techniques ;</li>
+          <li class="p-1">Si, pour quelque raison que ce soit, la connexion devait être interrompue.</li>
+
+        </ul>
+        <p class="p-1">
+          Par ailleurs, DIGIT Consults décline toute responsabilité en cas de mauvaise utilisation du terminal et/ou
+          d'incident lié à l'utilisation du terminal lors de l’utilisation de l’Application. DIGIT Consults ne saurait
+          en aucun cas être tenu responsable de tout dommage, de quelque nature que ce soit, causé aux Utilisateurs, à
+          leurs terminaux, à leurs équipements informatiques et téléphoniques et aux données qui y sont stockées ni des
+          conséquences pouvant en découler sur leur activité personnelle, professionnelle ou commerciale.
+        </p>
+        <p class="p-1">Dans la mesure permise par la loi applicable et dans la mesure où DIGIT Consults serait jugé
+          responsable d’un dommage non-prévu ci-dessus, la responsabilité de DIGIT Consults sera limitée uniquement aux
+          dommages certains, réels et établis.</p>
+        <h3 style="color: #FD5612;" class="mt-3">Article 9 : LIMITES GÉOGRAPHIQUES ET GÉOLOCALISATION</h3>
+        <p class="p-1">L'utilisation de la fonctionnalité de géolocalisation de l'Application nécessite le consentement
+          préalable express de l'Utilisateur à être géolocalisé. Pour cela l'Utilisateur devra activer, s'il le
+          souhaite, la fonction de géolocalisation directement dans les réglages de son terminal mobile et accepter que
+          l'Application puisse y avoir recours. Cette fonctionnalité peut, à tout moment, et sans frais, être désactivée
+          ou activée.</p>
+        <p class="p-1">Grâce à l'acceptation de la fonction de géolocalisation par GPS du téléphone mobile et de
+          l'Application, l'Utilisateur pourra choisir des « EasyFood  » proches de chez lui.</p>
+        <h3 style="color: #FD5612;" class="mt-3">Article 10 : PROTECTION DES DONNÉES PERSONNELLES </h3>
+        <p class="py-1">Pour connaître les caractéristiques de la politique de protection des données à caractère
+          personnel mise en œuvre par DIGIT Consults, l’Utilisateur est expressément invité à prendre connaissance de la
+          Charte relative à la protection des données personnelles disponible sur www.easyfoodgether.com.</p>
+        <p>L'Utilisateur est informé du fait que l’Application utilise des traceurs ou « cookies » conçus pour être
+          utilisés par Help and care. Pour en savoir plus sur l’utilisation des « cookies », l’Utilisateur est
+          expressément invité à prendre connaissance de la Politique de Help and care en matière de cookies disponibles
+          sur www.easyfoodgether.com.</p>
+
+        <h3 style="color: #FD5612;" class="mt-3">Article 11 : LA SÉCURITÉ DE L’APPLICATION </h3>
+        <p>L’Application et le logiciel sont fournis « tel quel » et « comme disponible » sans garantie quelle qu’elle
+          soit. L’accès et l’utilisation de l'Application se font aux risques et périls de l'Utilisateur.</p>
+        <h5 class="text-success1">11.1 : RISQUES POUR L'UTILISATEUR</h5>
+        <p>Il appartient à l’Utilisateur de prendre toutes les mesures appropriées de façon à protéger ses propres
+          données et/ou logiciels stockés sur son et/ou ses matériels (téléphonique, informatique) contre toute atteinte
+          (dysfonctionnement, virus, piratage,… liste non exhaustive).</p>
+        <p>En utilisant l’Application, l’Utilisateur assume toutes les conséquences négatives que pourraient engendrer
+          l’Application.</p>
+        <h3 style="color: #FD5612;" class="mt-3">11.2 : RISQUE SUR LE « RÉSEAU INTERNET » </h3>
+        <p>Les performances techniques de l’Internet mobile requièrent un temps de traitement nécessaire pour répondre,
+          consulter, interroger ou transférer les services.</p>
+        <p>L’Utilisateur déclare connaître et accepter les limites et les problématiques du réseau Internet et pour
+          lesquelles la responsabilité de DIGIT Consults ne saurait être engagée : (liste non-exhaustive)</p>
+        <ul class="p-3">
+          <li class="p-1">Les caractéristiques et les limites du réseau Internet et, notamment les caractéristiques
+            fonctionnelles et des performances techniques du réseau Internet ;</li>
+          <li class="p-1">Les problèmes liés à la connexion et/ou d’accès au réseau Internet et/ou aux sites web ;</li>
+          <li class="p-1">Les problèmes liés à la disponibilité et à l’encombrement des réseaux ;</li>
+          <li class="p-1">Les problèmes liés à la défaillance ou à la saturation des réseaux ;</li>
+          <li class="p-1">Les problèmes liés au temps de transit, à l’accès aux informations mises en ligne, aux temps
+            de réponse pour afficher, consulter, interroger ou autrement transférer des données ;</li>
+          <li class="p-1">Les risques d’interruption ;</li>
+          <li class="p-1">L’absence de protection de certaines données contre des détournements éventuels ou piratage ;
+          </li>
+          <li class="p-1">Les risques de contamination par d’éventuels virus circulant sur lesdits réseaux.</li>
+
+        </ul>
+        <h3 style="color: #FD5612;" class="mt-3">Article 11 : LA SÉCURITÉ DE L’APPLICATION </h3>
+        <p>L’Application et le logiciel sont fournis « tel quel » et « comme disponible » sans garantie quelle qu’elle
+          soit. L’accès et l’utilisation de l'Application se font aux risques et périls de l'Utilisateur.</p>
+        <h5 class="text-success1">11.1 : RISQUES POUR L'UTILISATEUR</h5>
+        <p>Il appartient à l’Utilisateur de prendre toutes les mesures appropriées de façon à protéger ses propres
+          données et/ou logiciels stockés sur son et/ou ses matériels (téléphonique, informatique) contre toute atteinte
+          (dysfonctionnement, virus, piratage,… liste non exhaustive).</p>
+        <p>En utilisant l’Application, l’Utilisateur assume toutes les conséquences négatives que pourraient engendrer
+          l’Application.</p>
+        <h5 class="text-success1">11.2 : RISQUE SUR LE « RÉSEAU INTERNET »</h5>
+        <p>Les performances techniques de l’Internet mobile requièrent un temps de traitement nécessaire pour répondre,
+          consulter, interroger ou transférer les services.</p>
+        <p>L’Utilisateur déclare connaître et accepter les limites et les problématiques du réseau Internet et pour
+          lesquelles la responsabilité de DIGIT Consults ne saurait être engagée : (liste non-exhaustive)</p>
+        <ul class="p-3">
+          <li class="p-1">Les caractéristiques et les limites du réseau Internet et, notamment les caractéristiques
+            fonctionnelles et des performances techniques du réseau Internet ;</li>
+          <li class="p-1">Les problèmes liés à la connexion et/ou d’accès au réseau Internet et/ou aux sites web ;</li>
+          <li class="p-1">Les problèmes liés à la disponibilité et à l’encombrement des réseaux ;</li>
+          <li class="p-1">Les problèmes liés à la défaillance ou à la saturation des réseaux ;</li>
+          <li class="p-1">Les problèmes liés au temps de transit, à l’accès aux informations mises en ligne, aux temps
+          <li class="p-1">Les risques d’interruption ;</li>
+          <li class="p-1">L’absence de protection de certaines données contre des détournements éventuels ou piratage ;
+          </li>
+          <li class="p-1">Les risques de contamination par d’éventuels virus circulant sur lesdits réseaux.</li>
+
+        </ul>
+
+        <h3 style="color: #FD5612;" class="mt-3">Article 12 : LIMITATIONS TECHNIQUES </h3>
+        <p>L’Utilisateur doit s’assurer d’avoir une connexion Internet suffisante pour le fonctionnement de
+          l’Application. EasyFood Gether n’est pas responsable du mauvais fonctionnement de l’Application en cas
+          d’absence ou de faible connexion internet. Certains services peuvent ne pas fonctionner en cas de mauvaises
+          connexions internet.</p>
+        <p>Pour le bon fonctionnement des services de l’Application, il est nécessaire que certaines fonctionnalités du
+          téléphone portable soient activées (caméra, géolocalisation, réseaux, …). Si ces fonctionnalités ne sont pas
+          activées ou présentes sur le téléphone portable de l’Utilisateur, certains services ne seront pas fonctionnels
+          sur l’Application. EasyFood Gether ne pourra pas être tenu responsable des services non fonctionnels.</p>
+        <p>EasyFood Gether s’assure de la publication de l’Application sur les stores et à ce que l’Application soit
+          compatible avec la plupart des appareils de type téléphone portable du marché. Du fait du grand nombre de
+          modèles, de systèmes d’exploitations divers (à jour ou non), des surcoûts éventuels des opérateurs, et des
+          différents logiciels installés par l’Utilisateur, EasyFood Gether ne peut garantir la parfaite compatibilité
+          de l’Application avec tous les téléphones portables et ne sera donc pas responsable du mauvais fonctionnement.
+        </p>
+
+        <h3 style="color: #FD5612;" class="mt-3">Article 12 : LIMITATIONS TECHNIQUES </h3>
+
+        <p>Toutes les conditions générales de EasyFood Gether disponibles sur le site www.easyfoodgether.com sont
+          applicables à tout Utilisateur de l’Application et des Services.</p>
+        <p>En vous inscrivant sur EasyFood Gether, Vous acceptez les CGU auxquelles Vous avez accès sur le site
+          www.easyfoodgether.com. L'Utilisateur est invité à lire attentivement et à chaque visite les CGU qui sont
+          accessibles par hyperlien dans la rubrique paramètre de l’Application et susceptibles d’être modifiées à tout
+          moment et sans préavis par DIGIT Consults.</p>
+
+        <h3 style="color: #FD5612;" class="mt-3">Article 14 : PROPRIÉTÉ INTELLECTUELLE </h3>
+        <p>DIGIT Consults SARL est le propriétaire exclusif de tous les droits de propriété intellectuelle afférents à
+          l’Application et son Contenu. Le téléchargement de l’Application ne confère aucun droit à l’Utilisateur sur
+          les droits de propriété intellectuelle de EasyFood Gether.</p>
+        <p>Tous les droits de reproduction et de représentation sont réservés, y compris pour les documents
+          téléchargeables. L’ensemble des textes, graphismes, icônes, photographies, plans, logos, vidéos, sons,
+          marques, et plus généralement l’ensemble des éléments composant l’Application ne peuvent faire l’objet d’une
+          quelconque représentation, reproduction, exploitation ou extraction, intégrale ou partielle, sur quelque
+          support que ce soit, sans l’autorisation expresse et préalable de DIGIT Consults.</p>
+        <p>L’Utilisateur s’engage expressément à ce que l’utilisation de l’Application ne porte en aucun cas atteinte
+          aux droits de DIGIT Consults SARL, et notamment à ce que cette utilisation ne constitue pas un acte de
+          contrefaçon, de concurrence déloyale ou parasitaire du Contenu.</p>
+
+
+        <h3 style="color: #FD5612;" class="mt-3">Article 15 : RÉSILIATION </h3>
+        <p>DIGIT Consults SARL peut décider la fin de la mise à disposition de l’Application à tout moment sous réserve
+          de respecter un préavis de 8 jours ; la notification de la fin de la mise à disposition se fera par e-mail ou
+          par affichage d’un message sur un écran de l’Application.</p>
+        <p>DIGIT Consults SARL n’a pas à motiver sa décision de mettre fin à la mise à disposition de l’Application, et
+          cette décision ne peut donner lieu à une indemnisation ni à un remboursement (l’Application étant gratuite).
+        </p>
+        <p>DIGIT Consults SARL peut résilier votre COMPTE UTILISATEUR si vous ne respectez pas les termes.</p>
+        <p>Au moment de toute résiliation, les droits et les licences qui Vous avaient été accordés seront résiliés et
+          Vous devrez cesser toute utilisation de l’Application.</p>
+
+
+        <h3 style="color: #FD5612;" class="mt-3">Article 16 : INDIVISION DES CGU DE L’APPLICATION MOBILE </h3>
+        <p>Si un tribunal de juridiction compétente juge que l’une des dispositions des présentes CGU de l’Application
+          est invalide, cette dernière devra alors être supprimée sans incidence sur le reste des CGU de l’Application.
+          Les autres dispositions des présentes CGU de l’Application resteront valides et applicables.</p>
+
+        <h3 style="color: #FD5612;" class="mt-3">Article 17 : RECOURS, JURIDICTION COMPÉTENTE ET DROIT APPLICABLE EN CAS
+          DE LITIGE </h3>
+        <p>La forme, la mise en vigueur et la validité des présentes modalités sont régies par les lois du domicile ou
+          de résidence habituelle de l’utilisateur.</p>
+        <p>
+          Au préalable à toute action contentieuse, les Parties s’engagent à rechercher ensemble et de bonne foi une
+          solution amiable dans un délai de trente (30) jours. Toute réclamation sera donc au préalable portée par écrit
+          auprès du Service Client de DIGIT Consults par téléphone ou en nous contactant, avec les pièces
+          justificatives, aux coordonnées suivantes :
+        </p>
+        <strong>Digit Consults sarl</strong> <br>
+        <span>Service Client</span><br>
+        <a href="infos@digitconsults.com">infos@digitconsults.com</a>
+
+
+        <p>Le cas échéant, tout litige pouvant naître à l’occasion de la validité des présentes Conditions d’utilisation
+          du CGU, de son interprétation ou de son exécution sera soumis à la compétence exclusive du tribunal du ressort
+          dans lequel l’Utilisateur à son domicile ou sa résidence habituelle, sauf règles de procédures impératives
+          contraires.</p>
+
+
+
+
+
+
+
+
+
       </div>
     </section><!-- End About Section -->
 
@@ -189,8 +644,9 @@
     <section id="pricing" class="pricing section-b">
       <div class="container">
         <div class="row">
-          <div data-aos="fade-left" class="col-lg-6 text-light " style="font-size: 30px; font-weight: 600;">Téléchargez
-            gratuitement GOODTOO
+          <div data-aos="fade-left" class="col-lg-6 col-md-12 text-light " style="font-size: 30px; font-weight: 600;">Téléchargez
+            gratuitement easyFood gether
+
           </div>
           <div class="col-lg-6 d-flex justify-content-between ">
             <a data-aos="fade-up" href="" class="col-5"><img src="assets/img/ow/App-Store-Button-transparent.png"
