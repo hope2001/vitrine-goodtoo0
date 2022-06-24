@@ -320,6 +320,11 @@ h1, h2, h3, h4, h5, h6 {
   .off{
     display: block!important;
   }
+  .team{
+   
+   background-size: contain;
+   height: 90vh!important;
+   }
 } 
 .navbar-mobile {
   position: fixed;
@@ -1596,8 +1601,8 @@ line-height: 1em!important;
   
  }
 
-/*XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1401px) { 
+/*XX-Large devices (larger desktops, 1401px and up)*/
+@media (min-width: 1401px) and (max-width: 1499px) { 
 
   #hero{
     height: vh!important;
@@ -1637,6 +1642,71 @@ line-height: 1em!important;
 
   #hero .secframe{
    /*height: 30vh!important;*/
+  }
+  .seper{
+    display: none;
+  }
+
+  .about .image {
+    min-height: 600px;
+  }
+
+  .tt{
+    font-size: 45px;
+    line-height: 2em;
+  }
+  .team{
+    /* background-color: #D2F5D0;*/
+
+   background-size: cover;
+   }
+
+ }
+
+ /*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1800px) { 
+
+
+  #hero .coframe{
+    height: 50vh!important;
+  }
+  #hero h1 {
+    margin: 5px 0 10px 0;
+    font-size: 95px;
+    font-weight: 700;
+    line-height: 1em;
+   color: #d2e0ed;
+   /* color: #550000;*/
+    font-family: "Poppins", sans-serif;
+    text-shadow: 1px 1px 1px  #000000;
+  }
+  #hero .h1{
+    margin: 30px 0 20px 0;
+    font-size: 80px;
+  }
+  .floti{
+    margin-top: 25px;
+  }
+  .onn{
+    display: block;
+  }
+  
+  .lll1{
+    display: flex!important;
+  }
+
+  #hero .imbn{
+    /*height: 30vh!important;
+    width: 800px!important;
+    height: 300px!important;
+    top: 200px!important;*/
+   }
+   .bt11{
+     margin: 0;
+   }
+
+  #hero .secframe{
+   height: 50vh!important;
   }
   .seper{
     display: none;
