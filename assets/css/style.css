@@ -321,9 +321,29 @@ h1, h2, h3, h4, h5, h6 {
     display: block!important;
   }
   .team{
+    position: relative;
+  }
+  .overlayteam{
+    position: absolute;
+    /*background: url('../img/ow/image\ 10.png') cover no-repeat center;
+   /* background-color: #000000!important;*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+  }
+  /*.team{
    
    background-size: contain;
-   height: 90vh!important;
+   }*/
+   .team{
+    /* background-color: #D2F5D0;*/
+   background: url('../img/ow/image\ 10.png');
+   
+   background-repeat: no-repeat;
+   /*background-attachment: fixed;
+   background-size: contain;*/
+   /*height: 120vh!important;*/
    }
 } 
 .navbar-mobile {
@@ -1061,7 +1081,7 @@ background: url('../img/ow/image\ 10.png');
 background-repeat: no-repeat;
 /*background-attachment: fixed;*/
 background-size: cover;
-height: 120vh!important;
+/*height: 120vh!important;*/
 }
 .team h2{
   font-weight: bold;
