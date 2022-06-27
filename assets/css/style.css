@@ -322,15 +322,19 @@ h1, h2, h3, h4, h5, h6 {
   }
   .team{
     position: relative;
+    /*background: #ccfdcb!important;*/
   }
   .overlayteam{
-    position: absolute;
+    position: absolute!important;
     /*background: url('../img/ow/image\ 10.png') cover no-repeat center;
    /* background-color: #000000!important;*/
     top: 0;
-    bottom: 0;
+    bottom: 0px!important;
     left: 0;
-    display: block;
+    right: 100;
+    height: auto;
+    width: 100%;
+    display: block!important;
   }
   /*.team{
    
@@ -1082,6 +1086,9 @@ background-repeat: no-repeat;
 /*background-attachment: fixed;*/
 background-size: cover;
 /*height: 120vh!important;*/
+}
+.overlayteam{
+  display: none;
 }
 .team h2{
   font-weight: bold;
