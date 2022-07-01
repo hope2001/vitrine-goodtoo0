@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .team{
     position: relative;
-    /*background: #ccfdcb!important;*/
+    background-color: #d1f5d0!important;
   }
   .overlayteam{
     position: absolute!important;
@@ -341,8 +341,7 @@ h1, h2, h3, h4, h5, h6 {
    background-size: contain;
    }*/
    .team{
-    /* background-color: #D2F5D0;*/
-   background: url('../img/ow/image\ 10.png');
+   /* background: url('../img/ow/image\ 10.png');
    
    background-repeat: no-repeat;
    /*background-attachment: fixed;
@@ -447,7 +446,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .h1 {
   margin: 0 0 15px 0;
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 500;
   line-height: 56px;
   color: #d2e0ed;
@@ -1612,19 +1611,30 @@ line-height: 1em!important;
     margin: 0 auto!important;
   }
   #hero h1{
-    font-size: 45px!important;
+    font-size: 85px!important;
+    text-align: justify!important;
   }
- 
+  /*#hero .h1{
+    font-size: 70px!important;
+    text-align: center!important;
+  }*/
  }
 
 
 
- /* Large devices (desktops, 992px and up)*/
- @media ((min-width: 992px) and (max-width: 1400px)) { 
+ /* Large devices (desktops, 992px and up) (min-width: 992px) and*/
+ @media ( (max-width: 767px)) { 
   /*#hero{
     height: 100vh!important;
   
   }*/
+  #hero h1{
+    font-size: 80px!important;
+    text-align: justify!important;
+  }
+  #hero .h1{
+    font-size: 70px!important;
+    text-align: center!important;
 
   
  }
@@ -1700,7 +1710,7 @@ line-height: 1em!important;
   }
   #hero h1 {
     margin: 5px 0 10px 0;
-    font-size: 95px;
+    font-size: 70px;
     font-weight: 700;
     line-height: 1em;
    color: #d2e0ed;
@@ -1710,7 +1720,7 @@ line-height: 1em!important;
   }
   #hero .h1{
     margin: 30px 0 20px 0;
-    font-size: 80px;
+    font-size: 70px;
   }
   .floti{
     margin-top: 25px;
@@ -1747,17 +1757,30 @@ line-height: 1em!important;
   .tt{
     font-size: 45px;
     line-height: 2em;
-  }
+  }/*
   .team{
-    /* background-color: #D2F5D0;*/
+    /* background-color: #D2F5D0;
 
    background-size: cover;
-   }
+   }*/
+   .team{
+    position: relative;
+    background-color: #d1f5d0!important;
+  }
+  .overlayteam{
+    position: absolute!important;
+    /*background: url('../img/ow/image\ 10.png') cover no-repeat center;
+   /* background-color: #000000!important;*/
+    top: 0;
+    bottom: 0px!important;
+    left: 0;
+    right: 100;
+    height: auto;
+    width: 100%;
+    display: block!important;
+  }
 
  }
 
 
-
- 
-
-
+ }
